@@ -22,7 +22,7 @@ body {
 }
 
 body p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 body li{
@@ -101,6 +101,7 @@ body li{
     flex-direction: column;
     align-items: center;
     width: calc(100vw - 250px);
+    background-color: rgb(246, 246, 246);
 }
 
 .section {
@@ -262,15 +263,15 @@ hr {
 
 .design-imgs {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     flex-wrap: wrap;
-    border: #50C8AA;
+    /* border: #50C8AA;
     border-width: thick;
     border-style: solid;
     border-radius: 20px;
-    margin-top: 5vw;
+    margin-top: 5vw; */
 }
 .design-imgs img{
     display: block;
@@ -310,6 +311,10 @@ hr {
     justify-content: center;
     gap: 20px;
     margin-top: 50px;
+}
+
+#Sketches .section-content, #Wireframes .section-content{
+    margin: 20px 0;
 }
 
 
