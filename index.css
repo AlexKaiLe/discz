@@ -113,6 +113,9 @@ body li{
     /* padding-top: 100px; */
     margin: 100px 0 2vw 0;
 }
+.section li{
+    text-align: left;
+}
 
 .display_sketchs {
     display: flex;
