@@ -296,7 +296,6 @@ hr {
     color: black;
 }
 
-
 .page-button {
     height: 75px;
     width: 200px;
@@ -328,10 +327,8 @@ hr {
     margin: 20px 0;
 }
 
-#Critique-lists {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
+#Critique .section-content{
+    margin: 20px;
 }
 
 
